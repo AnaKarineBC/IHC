@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IHC - Prática de usabilidade</title>
+</head>
+
+<body>
+    <header class="flex-container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex-container">
+        <h1>Contato</h1>
+        <p>Campos marcados com asterisco (*), são obrigatórios.</p>
+        <section>
+        <form method="post">
+            <label for="nome" class="required">Nome</label><br>
+            <input type="text" name="nome" id="nome" placeholder="Insira seu nome completo" required><br><br>
+            <label for="email" class="required">E-Mail </label><br>
+            <input type="email" name="email" id="email" placeholder="nome@site.com" required><br><br>
+            <label for="mensagem" class="required">Mensagem</label><br>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite aqui sua mensagem" required></textarea><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    </main>
+    <footer class="flex-container">
+        <p>Todos os direitos reservados &copy; 2023.</p>
+    </footer>
+</body>
+
+</html>
